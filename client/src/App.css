@@ -1,0 +1,17 @@
+/* home */
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.error {
+  margin-bottom: 0;
+}
+
+#title {
+  background-color: #81c451;
+  color: #fff;
+  line-height: 1.5rem;
+}
