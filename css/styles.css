@@ -1,0 +1,19 @@
+.container-fluid{
+  padding: 1.5% 10%;
+}
+
+.navbar-brand{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.nav-item{
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+}
+
+#title{
+	background-color: #81c451;
+	color: #fff;
+}
