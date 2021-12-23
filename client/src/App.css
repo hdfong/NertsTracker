@@ -1,17 +1,149 @@
 /* home */
+.btn-primary {
+  background-color: #52734d;
+  border-color: #52734d;
+  margin: 1rem;
+}
+
+.btn-primary:focus {
+  background-color: #91c788;
+  border-color: #91c788;
+}
+
+.btn-primary:hover {
+  background-color: #91c788;
+  border-color: #91c788;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 0rem auto;
+  width: auto;
+}
+
+.error {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-control {
+  background-color: #feffde;
+  border: #feffde;
+}
+
+.form-control:focus {
+  background-color: #feffde;
+  border: #feffde;
+}
+
+.host-setup {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.inputs {
+  align-content: stretch;
+  display: inline-flex;
+  justify-content: center;
+  margin: 3rem 0 0 0;
+  width: 100%;
+}
+
+.input-group {
+  background-color: #feffde;
+  border: #91c788;
+  border-width: 1px;
+  margin: 0;
+  width: 12rem;
+}
+
+.input-group-text {
+  background-color: #ddffbc;
+  border: #91c788;
+}
+
+.left {
+  flex-grow: 2;
+}
+
+.lobby {
+  margin: 0;
+}
+
+.navbar {
+  padding: 0.5rem 0.5rem;
+}
+
+.navbar-dark .navbar-brand {
+  color: #feffde;
+}
+
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  padding-left: 2rem;
+  margin: 0.5rem 0rem 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.error {
-  margin-bottom: 0;
+.normal-setup {
+  margin-top: 3rem;
+}
+
+.results {
+  align-content: stretch;
+  display: flexbox;
+  justify-content: center;
+  margin: 3rem 0 0 0;
+  width: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.setup {
+  display: inline-flex;
+}
+
+.welcome {
+  justify-content: center;
 }
 
 #title {
-  background-color: #81c451;
-  color: #fff;
+  background-color: #91c788; /*#81c451;*/
   line-height: 1.5rem;
+}
+
+body {
+  background-color: #feffde;
+}
+
+h1 {
+  text-align: center;
+  color: #52534d;
+  margin: 0.5rem 0;
+}
+
+h2 {
+  text-align: center;
+  color: #52534d;
+}
+
+/* Literally just hide the arrows for score input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
